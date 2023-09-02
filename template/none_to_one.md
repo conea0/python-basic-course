@@ -1,0 +1,21 @@
+# 00N
+
+---
+## 問題
+
+"hello world" を出力してください。
+
+## テストケース
+input = none
+[
+	{
+		"input": [],
+		"output": ["hello world"]
+  	},
+]
+
+
+## 模範回答
+```python
+print("hello world")
+```
