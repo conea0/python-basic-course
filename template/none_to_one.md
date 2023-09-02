@@ -7,13 +7,14 @@
 
 ## テストケース
 input = none
+```json
 [
 	{
 		"input": [],
 		"output": ["hello world"]
   	},
 ]
-
+```
 
 ## 模範回答
 ```python
