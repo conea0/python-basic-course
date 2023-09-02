@@ -1,3 +1,4 @@
+<pre>
 # 00N
 
 ---
@@ -49,3 +50,4 @@ for i in range(1,n+1):
 print(even)
 print(odd)
 ```
+</pre>

@@ -1,3 +1,4 @@
+<pre>
 # 00N
 
 ---
@@ -22,3 +23,4 @@ input = none
 for i in range(1,11):
 	print(i)
 ```
+</pre>

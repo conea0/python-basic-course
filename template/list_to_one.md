@@ -1,3 +1,4 @@
+<pre>
 # 00N
 
 ---
@@ -31,3 +32,4 @@ for i in lst:
 
 print(sum)
 ```
+</pre>

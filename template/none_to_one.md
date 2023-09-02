@@ -1,3 +1,4 @@
+<pre>
 # 00N
 
 ---
@@ -20,3 +21,4 @@ input = none
 ```python
 print("hello world")
 ```
+</pre>

@@ -1,3 +1,4 @@
+<pre>
 # 00N
 
 ここはmarkdownを自由に記述できる。
@@ -29,3 +30,4 @@ input = str
 name = get_input()
 print("hello " + name)
 ```
+</pre>

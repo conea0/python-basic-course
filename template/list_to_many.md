@@ -1,3 +1,4 @@
+<pre>
 # 00N
 
 ---
@@ -27,3 +28,4 @@ lst = get_input()
 for i in lst:
 	print(i)
 ```
+</pre>
