@@ -7,12 +7,10 @@
 "hello world" を出力してください。
 
 ## テストケース
-input = none
 ```json
 [
 	{
-		"input": [],
-		"output": ["hello world"]
+		"inputs": [],
   	},
 ]
 ```

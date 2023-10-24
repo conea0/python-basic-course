@@ -9,25 +9,27 @@
 
 nameに自分の名前を代入して、`hello (自分の名前)` を出力してください。
 
-## テストケース
+### inputの方法
+いかのコードを利用してよい。
+```python
+a = input()
+```
 
-input = str
+## テストケース
 ```json
 [
 	{
-		"input": ["shuya"],
-		"output": ["hello shuya"]
+		"inputs": ["shuya"],
   	},
 	{
-		"input": ["taro"],
-		"output": ["hello taro"]
+		"inputs": ["taro"],
 	}
 ]
 ```
 
 ## 模範回答
 ```python
-name = get_input()
+name = input()
 print("hello " + name)
 ```
 </pre>
