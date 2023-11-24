@@ -17,10 +17,10 @@ a = list(map(int, input().split()))
 ```json
 [
 	{
-		"inputs": ["1 2 3 4"],
+		"input": ["1 2 3 4"],
   	},
 	{
-		"inputs": ["ichigo mikan ringo"],
+		"input": ["ichigo mikan ringo"],
   	},
 ]
 ```
@@ -30,6 +30,6 @@ a = list(map(int, input().split()))
 lst = list(map(int, input().split()))
 
 for i in lst:
-	print(i)
+  print(i)
 ```
 </pre>

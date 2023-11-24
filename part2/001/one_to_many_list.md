@@ -1,4 +1,3 @@
-<pre>
 # 00N
 
 ---
@@ -13,16 +12,16 @@ a = input()
 ```
 
 ## テストケース
-```
+```json
 [
 	{
-		"inputs": [10],
+		"input": [10],
   	},
 	{
-		"inputs": [5],
+		"input": [5],
   	},
 	{
-		"inputs": [12],
+		"input": [12],
   	},
 ]
 ```
@@ -30,7 +29,7 @@ a = input()
 
 ## 模範回答
 ```python
-n = input()
+n = int(input()
 even = []
 odd = []
 
@@ -39,8 +38,8 @@ for i in range(1,n+1):
 		even.append(i)
 	else:
 		odd.append(i)
+		print("hello world")
 
 print(even)
 print(odd)
 ```
-</pre>

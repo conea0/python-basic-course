@@ -1,0 +1,22 @@
+statement: |2+
+
+  lst にリストを代入して、リストの総和を出力してください。
+
+  ### inputの方法
+  配列のinputは`1 2 3 4`という形式で行われる。
+  これをpythonの配列にするために、以下のコードを利用してよい。
+  ```python
+  a = list(map(int, input().split()))
+  ```
+
+testcase:
+  tests:
+  - input:
+    - 1 2 3 4 5
+    output: |
+      15
+  - input:
+    - 1 2 3 4 5 6 7 8 9 10
+    output: |
+      55
+code: "lst = list(map(int, input().split()))\nsum = 0\n\nfor i in lst:\n\tsum += i\n\nprint(sum)\n"

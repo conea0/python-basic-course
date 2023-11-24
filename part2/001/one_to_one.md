@@ -1,4 +1,3 @@
-<pre>
 # 00N
 
 ここはmarkdownを自由に記述できる。
@@ -19,10 +18,10 @@ a = input()
 ```json
 [
 	{
-		"inputs": ["shuya"],
+		"input": ["shuya"],
   	},
 	{
-		"inputs": ["taro"],
+		"input": ["taro"],
 	}
 ]
 ```
@@ -32,4 +31,3 @@ a = input()
 name = input()
 print("hello " + name)
 ```
-</pre>
