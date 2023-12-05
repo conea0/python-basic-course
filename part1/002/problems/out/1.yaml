@@ -1,0 +1,11 @@
+statement: |2+
+
+  「こんにちは」と出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      こんにちは
+code: |
+  print("こんにちは")

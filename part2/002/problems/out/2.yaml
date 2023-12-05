@@ -1,0 +1,35 @@
+statement: |2+
+
+  文字列を入力として受け取り、その 2 文字目と 6 文字目を出力するプログラムを書いてください。
+
+  ### 例
+
+  input:
+  ```sh
+  hello,world
+  ```
+  output:
+
+  ```sh
+  e
+  ,
+  ```
+
+  ### inputの使い方
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - "123456"
+    output: |
+      2
+      6
+code: |
+  s = input()
+  print(s[1])
+  print(s[5])

@@ -1,0 +1,38 @@
+statement: |2+
+
+  入力された文字列を 10 回繰り返し、その間に空白を挿入して出力してください。
+
+  ### 例
+
+  input:
+
+  ```sh
+  hi
+  ```
+
+  output:
+
+  ```sh
+  hi hi hi hi hi hi hi hi hi hi
+  ```
+
+  ### input の使い方
+
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - hello
+    output: "hello hello hello hello hello hello hello hello hello hello \n"
+  - input:
+    - world
+    output: "world world world world world world world world world world \n"
+code: |
+  s = input()
+
+  print((s + " ") * 10)

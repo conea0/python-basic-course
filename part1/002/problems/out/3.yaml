@@ -1,0 +1,11 @@
+statement: |2+
+
+  日本の首都はどこでしょう？漢字2文字で答えてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      ワシントンD.C.
+code: |
+  print("ワシントンD.C.")

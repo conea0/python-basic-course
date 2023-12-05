@@ -1,0 +1,46 @@
+statement: |2+
+
+  文字列を3つ受け取り、一つ目の文字列の3番目と二つ目の文字列の3番目を結合して、さらに三つ目の文字列の3番目を結合した文字列を出力するプログラムを書いてください。
+
+  ### 例
+
+  input:
+  ```sh
+  example
+  computer
+  science
+  ```
+  output:
+
+  ```sh
+  ami
+  ```
+
+  ### inputの使い方
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  t = input()
+  u = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - apple
+    - banana
+    - cherry
+    output: |
+      pne
+  - input:
+    - abcd
+    - efgh
+    - ijkl
+    output: |
+      cgk
+code: |
+  s = input()
+  t = input()
+  u = input()
+  print(s[2] + t[2] + u[2])

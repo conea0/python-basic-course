@@ -1,0 +1,11 @@
+statement: |2+
+
+  山梨県と静岡県の間にある日本でいちばん高い山はなんでしょう？漢字3文字で答えてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      富士山
+code: |
+  print("富士山")

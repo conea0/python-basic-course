@@ -1,0 +1,25 @@
+statement: |2+
+
+  まずは input の使い方に慣れよう！
+
+  以下のコードをコピペして実行してみよう。
+
+  ```python
+  # 受け取った文字の2番目を出力する
+  s = input()
+  print(s[1])
+  ```
+
+testcase:
+  tests:
+  - input:
+    - hello
+    output: |
+      e
+  - input:
+    - world
+    output: |
+      o
+code: |
+  s = input()
+  print(s[1])

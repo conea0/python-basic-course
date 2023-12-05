@@ -1,0 +1,11 @@
+statement: |2+
+
+  世界でいちばん首の長い動物はなんでしょう？カタカナ3文字で答えてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      キリン
+code: |
+  print("キリン")

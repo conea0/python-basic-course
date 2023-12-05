@@ -1,0 +1,36 @@
+statement: |2+
+
+  文字列を複数受け取る方法に慣れよう！
+  以下のコードをコピペして実行してみよう。
+
+  ```python
+  s = input()
+  t = input()
+  u = input()
+  print(s)
+  print('---')
+  print(t)
+  print('---')
+  print(u)
+  ```
+
+
+  ### inputの使い方
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  t = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - computer
+    - science
+    output: |
+      mi
+code: |
+  s = input()
+  t = input()
+  print(s[2] + t[2])
