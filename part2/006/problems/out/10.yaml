@@ -1,0 +1,39 @@
+statement: |2+
+
+  文字列を入力として受け取り、その文字列の最後の文字だけを10回繰り返して出力してください。
+
+  ### 例
+
+  input:
+  ```sh
+  hello
+  ```
+
+  output:
+
+  ```sh
+  oooooooooo
+  ```
+
+  ### inputの使い方
+
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - get
+    output: |
+      tttttttttt
+  - input:
+    - konnichiwa
+    output: |
+      aaaaaaaaaa
+code: |
+  s = input()
+
+  print(s[-1] * 10)

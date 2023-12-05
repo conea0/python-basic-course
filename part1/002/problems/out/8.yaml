@@ -1,0 +1,11 @@
+statement: |2+
+
+  ゲームのキャラクターである"マリオ"の帽子にかいてある大文字アルファベット1文字はなんでしょう？
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      M
+code: |
+  print("M")

@@ -1,0 +1,11 @@
+statement: |2+
+
+  12月25日はなんの日でしょう？カタカナ5文字で答えてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      クリスマス
+code: |
+  print("クリスマス")

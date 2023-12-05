@@ -1,0 +1,36 @@
+statement: |2+
+
+  文字列を入力として受け取り、その最初の文字と最後の文字を結合し、その文字列を出力するプログラムを書いてください。
+
+  ### 例
+
+  input:
+  ```sh
+  example
+  ```
+  output:
+
+  ```sh
+  ee
+  ```
+
+  ### inputの使い方
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - computer
+    output: |
+      cr
+  - input:
+    - python
+    output: |
+      pn
+code: |
+  s = input()
+  print(s[0] + s[-1])

@@ -1,0 +1,41 @@
+statement: |2+
+
+  文字列を入力として受け取り、その文字列の長さだけ「hello]を結合して出力してください。
+
+  ### 例
+
+  input:
+  ```sh
+  aaaaa
+  ```
+
+  output:
+
+  ```sh
+  hellohellohellohellohello
+  ```
+
+  inputの「aaaaa」の長さは5なので、helloを5回繰り返して出力しています。
+
+  ### inputの使い方
+
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - aaaaa
+    output: |
+      hellohellohellohellohello
+  - input:
+    - hello
+    output: |
+      hellohellohellohellohello
+code: |
+  s = input()
+
+  print("hello" * len(s))

@@ -1,0 +1,32 @@
+statement: |2+
+
+  文字列を入力として受け取り、その7文字目を出力するプログラムを書いてください。
+
+  ### 例
+
+  input:
+  ```sh
+  国語算数理科社会
+  ```
+  output:
+
+  ```sh
+  社
+  ```
+
+  ### inputの使い方
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - computer
+    output: |
+      e
+code: |
+  s = input()
+  print(s[6])

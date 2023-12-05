@@ -1,0 +1,44 @@
+statement: |2+
+
+  文字列を二つ入力として受け取り、それぞれを4回繰り返し、その後結合して出力してください。
+
+  ### 例
+
+  input:
+  ```sh
+  hello
+  world
+  ```
+
+  output:
+
+  ```sh
+  hellohellohellohelloworldworldworldworld
+  ```
+
+  ### inputの使い方
+
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  t = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - aaaaa
+    - bbbbb
+    output: |
+      aaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbb
+  - input:
+    - こんにちは
+    - 世界
+    output: |
+      こんにちはこんにちはこんにちはこんにちは世界世界世界世界
+code: |
+  s = input()
+  t = input()
+
+  print((s * 4) + (t * 4))

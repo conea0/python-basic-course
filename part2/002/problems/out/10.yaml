@@ -1,0 +1,39 @@
+statement: |2+
+
+  3 文字の文字列を入力として受け取り、その 1 文字 1 文字を2連続にして出力するプログラムを書いてください。
+
+  ### 例
+
+  input:
+
+  ```sh
+  abc
+  ```
+
+  output:
+
+  ```sh
+  aabbcc
+  ```
+
+  ### input の使い方
+
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - com
+    output: |
+      ccoomm
+  - input:
+    - xyz
+    output: |
+      xxyyzz
+code: |
+  s = input()
+  print(s[0] + s[0] + s[1] + s[1] + s[2] + s[2])

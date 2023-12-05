@@ -1,0 +1,45 @@
+statement: |2+
+
+  入力された別々の2つの文字列を交互に3回ずつ繰り返して出力してください
+
+  ### 例
+
+  input:
+
+  ```sh
+  hello
+  world
+  ```
+
+  output:
+
+  ```sh
+  helloworldhelloworldhelloworld
+  ```
+
+  ### input の使い方
+
+  文字列を入力として受け取るには、input()を使います。
+
+  ```python
+  s = input()
+  t = input()
+  ```
+
+testcase:
+  tests:
+  - input:
+    - aaaaa
+    - bbbbb
+    output: |
+      aaaaabbbbbaaaaabbbbbaaaaabbbbb
+  - input:
+    - こんにちは
+    - 世界
+    output: |
+      こんにちは世界こんにちは世界こんにちは世界
+code: |
+  s = input()
+  t = input()
+
+  print((s + t) * 3)

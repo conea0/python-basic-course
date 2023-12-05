@@ -1,0 +1,24 @@
+statement: |2
+
+  まずは input の使い方に慣れよう！
+
+  以下のコードをコピペして実行してみよう。
+
+  ```python
+  # 受け取った文字を3連続にする
+  s = input()
+  print(s * 3)
+  ```
+testcase:
+  tests:
+  - input:
+    - ryo
+    output: |
+      ryoryoryo
+  - input:
+    - shuya
+    output: |
+      shuyashuyashuya
+code: |
+  word = input()
+  print(word * 3)
