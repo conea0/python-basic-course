@@ -1,0 +1,12 @@
+statement: |2+
+
+  変数としてタプルt=('Hello', 'world', '!')を作って出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      ('Hello', 'world', '!')
+code: |
+  t = ('Hello', 'world', '!')
+  print(t)
