@@ -1,0 +1,15 @@
+statement: |2+
+
+  input()の入力に「プログラマーです」が含まれているか調べよう。<br>
+  含まれているときはFalse, 含まれていないときはTrueを出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - プログラマーです
+    output: |
+      False
+code: |
+  S = input()
+  s = "プログラマーです"
+  print(s not in S)

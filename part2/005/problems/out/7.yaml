@@ -1,0 +1,15 @@
+statement: |2+
+
+  input()の入力に「あなたは」が含まれているか調べよう。<br>
+  **含まれているときはFalse, 含まれていないときはTrue**を出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - あなたは
+    output: |
+      False
+code: |
+  S = input()
+  s = "あなたは"
+  print(s not in S)

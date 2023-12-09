@@ -1,0 +1,15 @@
+statement: |2+
+
+  input()の入力に「名は」が含まれているか調べよう。<br>
+  含まれているときはFalse, 含まれていないときはTrueを出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - 僕は君
+    output: |
+      True
+code: |
+  S = input()
+  s = "名は"
+  print(s not in S)

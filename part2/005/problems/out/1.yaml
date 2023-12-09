@@ -1,0 +1,15 @@
+statement: |2+
+
+  input()の入力に「私は」が含まれているか調べよう。<br>
+  含まれているときはTrue, 含まれていないときはFalseを出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - 清水です
+    output: |
+      False
+code: |
+  S = input()
+  s = "私は"
+  print(s in S)

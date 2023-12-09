@@ -1,0 +1,15 @@
+statement: |2+
+
+  input()の入力に「。」が含まれているか調べよう。<br>
+  含まれているときはTrue, 含まれていないときはFalseを出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - こんにちは。
+    output: |
+      True
+code: |
+  S = input()
+  s = "。"
+  print(s in S)
