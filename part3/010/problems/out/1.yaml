@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した数が1であれば１、そうでなければ`pass`を処理するプログラムを作って下さい
+
+testcase:
+  tests:
+  - input:
+    - "1"
+    output: |
+      1
+code: |
+  num = int(input())
+  if num == 1:
+    print("1")
+  else:
+    pass

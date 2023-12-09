@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(str,input().split()))で入力されたリストの各要素が2の倍数であれば"⚪︎は2の倍数"(⚪︎にはその時の要素がはいる)、そうでなければ`pass`を処理するプログラムを作って下さい.
+
+testcase:
+  tests:
+  - input:
+    - 3 2 1 5 4
+    output: |
+      2は2の倍数
+      4は2の倍数
+code: "numbers = list(map(str, input().split()))\n\nfor num_str in numbers:\n    num
+  = int(num_str)\n    if num % 2 == 0:\n        print(f\"{num_str}は2の倍数\")\n    else:\n
+  \       pass \n"

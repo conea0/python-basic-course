@@ -1,0 +1,19 @@
+statement: |2+
+
+  int(input())で入力された2桁の数を桁ごとの数に分けて、分けた2つの数の合計を出力してください。入力が2桁以外の時は、passしてください。
+
+testcase:
+  tests:
+  - input:
+    - "12"
+    output: |
+      3
+code: |
+  num = int(input())
+  if 10 <= num <= 99:
+      digit1 = num // 10  # 十の位
+      digit2 = num % 10   # 一の位
+      total = digit1 + digit2
+      print(total)
+  else:
+      pass

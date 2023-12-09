@@ -1,0 +1,15 @@
+statement: |2
+
+  int(input())で入力した数が偶数であれば"割り切れる"、そうでなければ`pass`を処理するプログラムを作って下さい
+testcase:
+  tests:
+  - input:
+    - "10"
+    output: |
+      割り切れる
+code: |
+  num = int(input())
+  if num % 2 == 0:
+    print("割り切れる")
+  else:
+    pass

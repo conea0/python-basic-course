@@ -1,0 +1,22 @@
+statement: |2+
+
+  int(input())で入力された2桁の数を桁ごとの数に分けて、分けた2つの数の積が偶数の時だけその積を出力してください。入力が１桁以外の時は、passしてください。
+
+testcase:
+  tests:
+  - input:
+    - "12"
+    output: |
+      2
+code: |
+  num = int(input())
+  if 10 <= num <= 99:
+      digit1 = num // 10  # 十の位
+      digit2 = num % 10   # 一の位
+      m = digit1 * digit2
+      if m % 2 == 0:
+        print(m)
+      else:
+        pass
+  else:
+    pass
