@@ -1,0 +1,13 @@
+statement: |2+
+
+  input()を使って入力から、2文字目から先の文字を抜き出しなさい
+
+testcase:
+  tests:
+  - input:
+    - あいうえお
+    output: |
+      いうえお
+code: |
+  s = input()
+  print(s[1:])

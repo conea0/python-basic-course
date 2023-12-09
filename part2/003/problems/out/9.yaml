@@ -1,0 +1,13 @@
+statement: |2+
+
+  input()を使って入力から、2文字目から7文字目までを抜き出しなさい。
+
+testcase:
+  tests:
+  - input:
+    - あいうえおかきくけこ
+    output: |
+      いうえおかき
+code: |
+  s = input()
+  print(s[1:-3])

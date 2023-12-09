@@ -1,0 +1,13 @@
+statement: |2+
+
+  input()を使って入力から、最後の3文字を抜き出しなさい
+
+testcase:
+  tests:
+  - input:
+    - かきくけこ
+    output: |
+      くけこ
+code: |
+  s = input()
+  print(s[-3:])

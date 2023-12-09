@@ -1,0 +1,13 @@
+statement: |2+
+
+  input()を使って入力から、最初の2文字を抜き出しなさい
+
+testcase:
+  tests:
+  - input:
+    - あいうえお
+    output: |
+      あい
+code: |
+  s = input()
+  print(s[:2])

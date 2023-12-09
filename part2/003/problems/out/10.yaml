@@ -1,0 +1,13 @@
+statement: |2+
+
+  input()を使って入力から、文字列の連結（＋）を使って、最後の2文字と最初の2文字を抜き出して、連結させなさい。
+
+testcase:
+  tests:
+  - input:
+    - あいうえおかきくけこ
+    output: |
+      あいけこ
+code: |
+  s = input()
+  print(s[:2]+s[-2:])

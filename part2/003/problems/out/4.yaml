@@ -1,0 +1,13 @@
+statement: |2+
+
+  input()を使って入力から、３文字目から先の文字を抜き出しなさい
+
+testcase:
+  tests:
+  - input:
+    - あいうえお
+    output: |
+      うえお
+code: |
+  s = input()
+  print(s[2:])

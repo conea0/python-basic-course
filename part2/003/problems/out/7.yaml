@@ -1,0 +1,13 @@
+statement: |2+
+
+  input()を使って入力から、4文字目から6文字目までを抜き出しなさい
+
+testcase:
+  tests:
+  - input:
+    - あいうえおかきくけこ
+    output: |
+      えおか
+code: |
+  s = input()
+  print(s[3:6])
