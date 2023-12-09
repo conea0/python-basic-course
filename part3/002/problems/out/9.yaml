@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した値が18以上なら"成人"と出力し、そうでないなら"未成人"を出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - "20"
+    output: |
+      成人
+code: |
+  x = int(input())
+  if x >= 18:
+    print("成人")
+  else:
+    print("未成人")

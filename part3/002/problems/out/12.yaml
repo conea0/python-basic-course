@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した値が偶数なら"偶数"、そうでないなら"偶数でない"と出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - "12"
+    output: |
+      偶数
+code: |
+  x = int(input())
+  if x % 2 == 0:
+    print("偶数")
+  else:
+    print("偶数でない")

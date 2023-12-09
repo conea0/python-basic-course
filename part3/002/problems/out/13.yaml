@@ -1,0 +1,16 @@
+statement: |2+
+
+  input()で入力した文字列が"プログラミング"なら"大好き"、そうでないなら"好きでない"を出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - プログラミング
+    output: |
+      大好き
+code: |
+  x = input()
+  if x == "プログラミング":
+    print("大好き")
+  else:
+    print("好きでない")

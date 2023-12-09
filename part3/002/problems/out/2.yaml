@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した値が10以上ならTrue、そうでないなら、Falseを出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - "12"
+    output: |
+      True
+code: |
+  x = int(input())
+  if x >= 10:
+    print(True)
+  else:
+    print(False)

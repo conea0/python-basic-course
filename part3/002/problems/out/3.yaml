@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した値が7未満なら「未就学児」、そうでないなら「小学生以上」を出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - "3"
+    output: |
+      未就学児
+code: |
+  x = int(input())
+  if x < 7:
+    print("未就学児")
+  else:
+    print("小学生以上")

@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した値が2000以下なら"お釣りを渡そう"と出力し、そうでないなら"足りないよ"を出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - "2000"
+    output: |
+      お釣りを渡そう
+code: |
+  x = int(input())
+  if x <= 2000:
+    print("お釣りを渡そう")
+  else:
+    print("足りないよ")

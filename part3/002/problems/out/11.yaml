@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した値が7ならTrue、そうでないならFalseを出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - "7"
+    output: |
+      True
+code: |
+  x = int(input())
+  if x == 7:
+    print(True)
+  else:
+    print(False)

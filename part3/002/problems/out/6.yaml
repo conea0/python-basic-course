@@ -1,0 +1,16 @@
+statement: |2+
+
+  input()で入力された文字列が「宇宙＞太陽系＞地球＞日本＞岩手」にあればTrue、そうでないなら、Falseを出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - 地球
+    output: |
+      True
+code: |
+  x = input()
+  if x in "宇宙＞太陽系＞地球＞日本＞岩手":
+    print(True)
+  else:
+    print(False)

@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した値が20未満ならTrue、そうでないならFalseを出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - "2"
+    output: |
+      True
+code: |
+  x = int(input())
+  if x < 20:
+    print(True)
+  else:
+    print(False)

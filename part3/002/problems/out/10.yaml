@@ -1,0 +1,16 @@
+statement: |2+
+
+  int(input())で入力した値が60以上なら"シニア"、そうでないなら、"一般"を出力しなさい。
+
+testcase:
+  tests:
+  - input:
+    - "60"
+    output: |
+      シニア
+code: |
+  x = int(input())
+  if x >= 60:
+    print("シニア")
+  else:
+    print("一般")

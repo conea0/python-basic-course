@@ -1,0 +1,18 @@
+statement: |2+
+
+  int(input())で入力した値が２の倍数(2で割れる数)かつ3の倍数(3で割り切れる数)であればTrue、そうでないなら、Falseを出力しなさい。
+
+  ※ "かつ"は英語で"and"を使う。(条件)and(条件)の形にしてみよう。
+
+testcase:
+  tests:
+  - input:
+    - "6"
+    output: |
+      True
+code: |
+  x = int(input())
+  if x % 2 == 0 and x % 3 == 0:
+    print(True)
+  else:
+    print(False)

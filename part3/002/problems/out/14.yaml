@@ -1,0 +1,17 @@
+statement: |2
+
+  int(input())で入力した値が200か100ならTrueそうでないなら、Falseを出力しなさい。
+
+  ※ "または"は英語で"or"を使う。(条件)or(条件)の形にしてみよう。
+testcase:
+  tests:
+  - input:
+    - "100"
+    output: |
+      True
+code: |
+  x = int(input())
+  if x == 200 or x== 100:
+    print(True)
+  else:
+    print(False)
