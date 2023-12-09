@@ -1,0 +1,11 @@
+statement: "\nA, BがCであるかを出力しなさい。\n\n真であればTrue、偽であればFalseを出力しなさい。\n\nprint(True),print(False)は禁止です。変数を使って代入し比較しましょう。\n\n【A,B,Cの組み合わせ】\n\nA:[1,
+  2, 3]\n\nB:[1, 2, 3]   \n\nC:等しい\n\n"
+testcase:
+  tests:
+  - input: []
+    output: |
+      True
+code: |
+  lisA = [1, 2, 3]
+  lisB = [1, 2, 3]
+  print(lisA == lisB)

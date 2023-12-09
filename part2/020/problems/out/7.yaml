@@ -1,0 +1,25 @@
+statement: |2+
+
+  A, BがCであるかを出力しなさい。
+
+  真であればTrue、偽であればFalseを出力しなさい。
+
+  print(True),print(False)は禁止です。変数を使って代入し比較しましょう。
+
+  【A,B,Cの組み合わせ】
+
+  A:[1, 2, 30]
+
+  B:[1, 2, 30]
+
+  C:等しくない
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      False
+code: |
+  lisA = [1, 2, 30]
+  lisB = [1, 2, 30]
+  print(lisA != lisB)
