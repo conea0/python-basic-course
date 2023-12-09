@@ -1,0 +1,17 @@
+statement: |2
+
+  整数型の100と整数型の10×10×10が等しいか、等しくないかTrueかFalseで出力してください。
+
+  input()を使って10と100の変数を二つ作り、比較してください
+testcase:
+  tests:
+  - input:
+    - "20"
+    - "400"
+    output: |
+      False
+code: |
+  A = int(input())
+  B = int(input())
+
+  print(A*A*A==B)
