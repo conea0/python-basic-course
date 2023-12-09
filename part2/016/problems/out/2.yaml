@@ -1,0 +1,13 @@
+statement: |2+
+
+  `len`を使用して、list(map(str, input().split()))で入力した文字列のリストの要素数を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - e　i　a　o　u
+    output: |
+      5
+code: |
+  c = list(map(str, input().split()))
+  print(len(c))

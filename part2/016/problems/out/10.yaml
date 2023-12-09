@@ -1,0 +1,25 @@
+statement: |2
+
+  list(map(int, input().split()))とlist(map(str, input().split()))で入力した入れ子リストの1つ目のリストの最大値を出力してください。
+
+  以下のように入力で３つのリストを作り、それを合成してから始めてください
+  ```python
+  s1 = list(map(int, input().split()))
+  s2 = list(map(str, input().split()))
+  s3 = list(map(str, input().split()))
+  s = [s1,s2,s3]
+  ```
+testcase:
+  tests:
+  - input:
+    - 20 30 100
+    - b　a　c
+    - う　あ　い
+    output: |
+      100
+code: |
+  s1 = list(map(int, input().split()))
+  s2 = list(map(str, input().split()))
+  s3 = list(map(str, input().split()))
+  s = [s1,s2,s3]
+  print(max(s[0]))

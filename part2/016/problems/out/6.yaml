@@ -1,0 +1,13 @@
+statement: |2+
+
+  `max`を使用して、list(map(str, input().split()))で入力した文字列リストの中で辞書順で一番はやいアルファベットを出力してください。
+
+testcase:
+  tests:
+  - input:
+    - x　w　z　y　g
+    output: |
+      g
+code: |
+  c = list(map(str, input().split()))
+  print(min(c))

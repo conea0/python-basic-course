@@ -1,0 +1,13 @@
+statement: |2+
+
+  `len`を使用して、list(map(int, input().split()))で入力したリストの要素数を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 0 1 2 3 4 5
+    output: |
+      6
+code: |
+  n = list(map(int, input().split()))
+  print(len(n))

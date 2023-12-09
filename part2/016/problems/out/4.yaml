@@ -1,0 +1,13 @@
+statement: |2+
+
+  `min`を使用して、list(map(int, input().split()))で入力したリストの最小値を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 7 9 8 6 0
+    output: |
+      0
+code: |
+  n = list(map(int, input().split()))
+  print(min(n))

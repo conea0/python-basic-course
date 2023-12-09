@@ -1,0 +1,13 @@
+statement: |2+
+
+  `max`を使用して、list(map(int, input().split()))で入力したリストの最大値を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 3 4 5 2 1
+    output: |
+      5
+code: |
+  n = list(map(int, input().split()))
+  print(max(n))
