@@ -1,0 +1,16 @@
+statement: |+
+  ## 10
+
+  int(input())を利用してnum1,num2にそれぞれ数字を代入して、`(num1からnum2の商(小数点以下切り捨て))` を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - "5"
+    - "2"
+    output: |
+      2
+code: |
+  num1 =int(input())
+  num2 =int(input())
+  print(num1 // num2)

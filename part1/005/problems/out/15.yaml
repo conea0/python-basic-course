@@ -1,0 +1,16 @@
+statement: |+
+  ## 15
+
+  float(input())を利用してnum1に代入した数字を"cm"として、"m"に変換した数字を出力してください
+
+  ※1m = 100cm
+
+testcase:
+  tests:
+  - input:
+    - 65
+    output: |
+      0.65
+code: |
+  num1 = float(input())
+  print(num1 / 100)

@@ -1,0 +1,14 @@
+statement: |+
+  ## 2
+
+  input()を利用してnameに自分の名前を代入して、`私の名前は(自分の名前)です` を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - taro
+    output: |
+      私の名前は taro です
+code: |
+  name = input()
+  print("私の名前は " + name + " です")

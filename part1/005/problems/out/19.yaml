@@ -1,0 +1,18 @@
+statement: |+
+  ## 19
+
+  int(input())を利用してnum1を縦、num2を横として四角形を作った時の面積を出力してください
+  ※四角形の面積は、 縦 * 横 で求めることができる
+
+
+testcase:
+  tests:
+  - input:
+    - "4"
+    - "5"
+    output: |
+      20
+code: |
+  num1 = int(input())
+  num2 = int(input())
+  print(num1 * num2)

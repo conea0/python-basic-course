@@ -1,0 +1,16 @@
+statement: |+
+  ## 12
+
+  num1に代入した数字に3を掛けた数字にnum2に代入した数字を足した数字を出力してください
+
+testcase:
+  tests:
+  - input:
+    - "3"
+    - "6"
+    output: |
+      15
+code: |
+  num1 = int(input())
+  num2 = int(input())
+  print(num1 * 3 + num2)

@@ -1,0 +1,16 @@
+statement: |+
+  ## 14
+
+  `num1に代入した数字に5足した数字`をnum2に代入した数字で割った数字を出力してください
+
+testcase:
+  tests:
+  - input:
+    - "8"
+    - "2"
+    output: |
+      6.5
+code: |
+  num1 = int(input())
+  num2 = int(input())
+  print((num1 + 5) / num2)

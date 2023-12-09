@@ -1,0 +1,16 @@
+statement: |+
+  ## 5
+
+  int(input())を利用してnum1,num2にそれぞれ数字を代入して、`(num1からnum2の差)` を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - "7"
+    - "4"
+    output: |
+      3
+code: |
+  num1 = int(input())
+  num2 = int(input())
+  print(num1 - num2)

@@ -1,0 +1,16 @@
+statement: |+
+  ## 8
+
+  int(input())を利用してnum1,num2にそれぞれ数字を代入して、`(num1からnum2を割った余り)` を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - "5"
+    - "2"
+    output: |
+      1
+code: |
+  num1 = int(input())
+  num2 = int(input())
+  print(num1 % num2)

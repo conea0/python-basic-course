@@ -1,0 +1,13 @@
+statement: |2+
+
+  input()を利用してnameに自分の名前を代入して、`(自分の名前)` を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - goro
+    output: |
+      goro
+code: |
+  name = input()
+  print(name)

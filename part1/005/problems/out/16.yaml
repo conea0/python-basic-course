@@ -1,0 +1,16 @@
+statement: |+
+  ## 16
+
+  int(input())を利用してnum1に代入した数字を単位"L"として、単位"mL"に変換した数字を出力してください
+
+  ※1L = 1000ml
+
+testcase:
+  tests:
+  - input:
+    - "3"
+    output: |
+      3000
+code: |
+  num1 = int(input())
+  print(num1 * 1000)

@@ -1,0 +1,16 @@
+statement: |+
+  ## 11
+
+  int(input())を利用してnum1,num2に代入した数字を二倍したもの同士を足した数字を出力してください
+
+testcase:
+  tests:
+  - input:
+    - "2"
+    - "3"
+    output: |
+      10
+code: |
+  num1 = int(input())
+  num2 = int(input())
+  print(num1 * 2 + num2 * 2)

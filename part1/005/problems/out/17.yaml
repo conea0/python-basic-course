@@ -1,0 +1,15 @@
+statement: |+
+  ## 17
+
+  int(input())を利用してnum1に代入した数字を単位"kg"として、単位"mg"に変換した値を出力してください
+  ※1kg = 1000g, 1g = 1000mg
+
+testcase:
+  tests:
+  - input:
+    - "6"
+    output: |
+      600000
+code: |
+  num1 = int(input())
+  print(num1 * 100000)

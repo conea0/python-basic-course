@@ -1,0 +1,14 @@
+statement: |+
+  ## 13
+
+  `num1に代入した値に4を掛けた数字`を3で割った値を出力してください
+
+testcase:
+  tests:
+  - input:
+    - "3"
+    output: |
+      4.0
+code: |
+  num1 = int(input())
+  print(num1 * 4 / 3)

@@ -1,0 +1,18 @@
+statement: |+
+  ## 18
+
+  float(input())を利用してnum1に代入した数字を単位kg、num2に代入した数字を単位mgとして、`num1,num2の和`を単位gで出力してください。
+
+  ※1kg = 1000g, 1g = 1000mg
+
+testcase:
+  tests:
+  - input:
+    - "0.05"
+    - "625"
+    output: |
+      50.625
+code: |
+  num1 = float(input())
+  num2 = float(input())
+  print((num1 * 1000) + (num2 / 1000))
