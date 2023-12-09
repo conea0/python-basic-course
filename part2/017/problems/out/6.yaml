@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に「4 1 2 3 5」をlist(map(int, input().split()))で入力し、降順(大きい順)に並び変えて表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - 4 1 2 3 5
+    output: |
+      ['5', '4', '3', '2', '1']
+code: |
+  a = list(map(str, input().split()))
+  a.sort(reverse=True)
+  print(a)

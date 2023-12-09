@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に「りんご　いちご　ばなな」をlist(map(str, input().split()))で入力し、並び順を逆にして表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - りんご　いちご　ばなな
+    output: |
+      ['ばなな', 'いちご', 'りんご']
+code: |
+  a = list(map(str, input().split()))
+  a.reverse()
+  print(a)

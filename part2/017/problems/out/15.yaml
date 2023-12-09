@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に「うちゅうひこうし　いしゃ　しょうぼうし」をlist(map(str, input().split()))で入力し、あいうえお順に並び変えて表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - うちゅうひこうし　いしゃ　しょうぼうし
+    output: |
+      ['いしゃ', 'うちゅうひこうし', 'しょうぼうし']
+code: |
+  a = list(map(str, input().split()))
+  a.sort()
+  print(a)

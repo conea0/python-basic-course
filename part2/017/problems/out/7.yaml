@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数「a　b　c　d」をlist(map(str, input().split()))で入力し、並び順を逆にして表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - a　b　c　d
+    output: |
+      ['d', 'c', 'b', 'a']
+code: |
+  a = list(map(str, input().split()))
+  a.reverse()
+  print(a)

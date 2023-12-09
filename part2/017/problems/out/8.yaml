@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に「ケ　カ　ク　キ」list(map(str, input().split()))で入力し、アイウエオ順に並び変えて表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - ケ　カ　ク　キ
+    output: |
+      ['カ', 'キ', 'ク', 'ケ']
+code: |
+  a = list(map(str, input().split()))
+  a.sort()
+  print(a)

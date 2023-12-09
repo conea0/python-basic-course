@@ -1,0 +1,15 @@
+statement: |2+
+
+  変数に「satou　takahashi　tanaka　asaki」をlist(map(str, input().split()))で入力し、逆順に並び変えて表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - satou　takahashi　tanaka　asaki
+    output: |
+      ['asaki', 'tanaka', 'takahashi', 'satou']
+code: |+
+  a = list(map(str, input().split()))
+  a.reverse()
+  print(a)
+

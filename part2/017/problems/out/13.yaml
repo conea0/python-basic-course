@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に「40 20 30 10」をlist(map(int, input().split()))で入力し、昇順にして表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - 40 20 30 10
+    output: |
+      [10, 20, 30, 40]
+code: |
+  a = list(map(int, input().split()))
+  a.sort()
+  print(a)

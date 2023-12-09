@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に　「オ　エ　ウ　カ」　list(map(str, input().split()))で入力し、アイウエオ順に並び変えて表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - オ　エ　ウ
+    output: |
+      ['ウ', 'エ', 'オ']
+code: |
+  a = list(map(str, input().split()))
+  a.sort()
+  print(a)

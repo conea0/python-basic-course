@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に　「3 5 2 7 8」をlist(map(int, input().split()))で入力し、昇順(小さい順)に並び変えたリストを表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - 7 56 4 42 1
+    output: |
+      [1, 4, 7, 42, 56]
+code: |
+  a = list(map(int, input().split()))
+  a.sort()
+  print(a)

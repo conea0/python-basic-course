@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に「c　b　a　d」をlist(map(str, input().split()))で入力し、アルファベット順に並び変えて表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - c　b　a　d
+    output: |
+      ['a', 'b', 'c', 'd']
+code: |
+  a = list(map(str, input().split()))
+  a.sort()
+  print(a)

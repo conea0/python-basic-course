@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に「クマ　イヌ　ウサギ」をlist(map(str, input().split()))で入力し、アイウエオ順に並び変えて表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - クマ　イヌ　ウサギ
+    output: |
+      ['イヌ', 'ウサギ', 'クマ']
+code: |
+  a = list(map(str, input().split()))
+  a.sort()
+  print(a)

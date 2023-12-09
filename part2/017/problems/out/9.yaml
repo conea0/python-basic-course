@@ -1,0 +1,14 @@
+statement: |2+
+
+  変数に「金　木　水　火　月」をlist(map(str, input().split()))で入力し、並びを逆にして表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - 金　木　水　火　月
+    output: |
+      ['月', '火', '水', '木', '金']
+code: |
+  a = list(map(str, input().split()))
+  a.reverse()
+  print(a)
