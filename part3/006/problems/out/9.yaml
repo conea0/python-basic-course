@@ -1,0 +1,18 @@
+statement: |2+
+
+  空リストを作成し、tuple(map(str,input().split()))を使った入力をfor文を使って、中身に１を追加しながらを空リストに移し（空リストに追加し）結果を出力してください。
+
+  ※最終的な出力は、"Apple　Orenge Banana"が入力された時"['Apple1','Orange1','Banana1']"となる。
+
+testcase:
+  tests:
+  - input:
+    - Apple Orenge Banana
+    output: |
+      ['Apple1', 'Orenge1', 'Banana1']
+code: |
+  t = tuple(map(str,input().split()))
+  l = []
+  for animal in t:
+    l.append(animal+"1")
+  print(l)

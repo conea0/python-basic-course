@@ -1,0 +1,22 @@
+statement: |2
+
+  空リストlを作成し、tuple(map(int,input().split()))で２つのリストを入力し、for文を使って各要素同士の積をもとめて、リストlに追加してください。なお、追加したら結果を出力してください。
+
+  ※入力が"100 200 300","1 2 3"だとしたら、[100, 200, 300, 200, 400, 600, 300, 600, 900]となるようにする。
+testcase:
+  tests:
+  - input:
+    - 100 200 300
+    - 1 2 3
+    output: |
+      [100, 200, 300, 200, 400, 600, 300, 600, 900]
+code: |
+  l = []
+  l1 = tuple(map(int,input().split()))
+  l2 = tuple(map(int,input().split()))
+
+  for i in l1:
+    for j in l2:
+      a =i*j
+      l.append(a)
+  print(l)
