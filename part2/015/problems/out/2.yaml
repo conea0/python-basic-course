@@ -1,0 +1,15 @@
+statement: |2+
+
+  list(map(int, input().split()))でリストを入力しその中で、「965」が何番目にあるか出力してください。
+
+  ただし、「965」は必ず存在することとします。
+
+testcase:
+  tests:
+  - input:
+    - 273 638 22 161 712 437 965 772 806
+    output: |
+      6
+code: |
+  l = list(map(int, input().split()))
+  print(l.index(965))

@@ -1,0 +1,15 @@
+statement: |2+
+
+  list(map(int, input().split()))でリストを入力しその中で、「738」が何番目にあるか出力してください。
+
+  ただし、「738」は必ず存在することとします。
+
+testcase:
+  tests:
+  - input:
+    - 229 854 523 547 730 923 738 240 992 296
+    output: |
+      6
+code: |
+  l = list(map(int, input().split()))
+  print(l.index(738))

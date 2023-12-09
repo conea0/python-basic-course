@@ -1,0 +1,13 @@
+statement: |2+
+
+  list(map(int, input().split()))でリストを入力しその中で、「182」がいくつ存在するか出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 182 930 182 48
+    output: |
+      2
+code: |
+  l = list(map(int, input().split()))
+  print(l.count(182))

@@ -1,0 +1,13 @@
+statement: |2+
+
+  list(map(int, input().split()))でリストを入力しその中で、「699」がいくつ存在するか出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 834 699 837 6
+    output: |
+      1
+code: |
+  l = list(map(int, input().split()))
+  print(l.count(699))

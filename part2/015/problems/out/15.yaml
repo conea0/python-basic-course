@@ -1,0 +1,13 @@
+statement: |2+
+
+  list(map(int, input().split()))でリストを入力しその中で、「724」がいくつ存在するか出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 724 724
+    output: |
+      2
+code: |
+  l = list(map(int, input().split()))
+  print(l.count(724))

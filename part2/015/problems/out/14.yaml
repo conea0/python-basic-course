@@ -1,0 +1,13 @@
+statement: |2+
+
+  list(map(int, input().split()))でリストを入力しその中で、「579」がいくつ存在するか出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 579 083 579 385 579 37645
+    output: |
+      3
+code: |
+  l = list(map(int, input().split()))
+  print(l.count(579))

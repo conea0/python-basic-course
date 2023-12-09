@@ -1,0 +1,15 @@
+statement: |2+
+
+  list(map(int, input().split()))でリストを入力しその中で、「110」が何番目にあるか出力してください。
+
+  ただし、「110」は必ず存在することとします。
+
+testcase:
+  tests:
+  - input:
+    - 335 359 391 110 260
+    output: |
+      3
+code: |
+  l = list(map(int, input().split()))
+  print(l.index(110))

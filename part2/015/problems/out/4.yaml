@@ -1,0 +1,15 @@
+statement: |2+
+
+  list(map(int, input().split()))でリストを入力しその中で、「534」が何番目にあるか出力してください。
+
+  ただし、「534」は必ず存在することとします。
+
+testcase:
+  tests:
+  - input:
+    - 731 52 838 356 460 534
+    output: |
+      5
+code: |
+  l = list(map(int, input().split()))
+  print(l.index(534))
