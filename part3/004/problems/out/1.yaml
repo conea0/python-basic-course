@@ -1,0 +1,15 @@
+statement: |2+
+
+  for文を使って、「こんにちは！」を３回表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      こんにちは！
+      こんにちは！
+      こんにちは！
+code: |2
+
+  for a in range(3):
+    print("こんにちは！")

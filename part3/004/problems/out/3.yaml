@@ -1,0 +1,16 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力されたリストの要素を一つずつ取り出して表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - いちご　バナナ　りんご
+    output: |
+      いちご
+      バナナ
+      りんご
+code: |
+  fruits = list(map(str, input().split()))
+  for a in fruits:
+    print(a)

@@ -1,0 +1,17 @@
+statement: |2+
+
+  for文を使って、0~5の数字を表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      0
+      1
+      2
+      3
+      4
+      5
+code: |
+  for a in range(6):
+    print(a)

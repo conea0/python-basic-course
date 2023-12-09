@@ -1,0 +1,16 @@
+statement: |2+
+
+  for文を使って、「Hello」を５回表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      Hello
+      Hello
+      Hello
+      Hello
+      Hello
+code: |
+  for a in range(5):
+    print("Hello")

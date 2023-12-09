@@ -1,0 +1,21 @@
+statement: |2+
+
+  list(map(int, input().split()))で入力されたリストの要素を一つずつ取り出して表示し、また最後にそのすべての合計を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 1 2 3 4
+    output: |
+      1
+      2
+      3
+      4
+      10
+code: |
+  nums =list(map(int, input().split()))
+  for a in nums:
+    print(a)
+
+  total = sum(nums)
+  print(total)

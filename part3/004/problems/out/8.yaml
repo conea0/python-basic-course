@@ -1,0 +1,14 @@
+statement: |2+
+
+  0~5までの値をすべて足すようなfor文を書いて、答えを表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      15
+code: |
+  sum=0
+  for a in range(6):
+    sum = a + sum
+  print(sum)
