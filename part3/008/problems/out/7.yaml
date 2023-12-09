@@ -1,0 +1,21 @@
+statement: |2+
+
+  `while True`を使って、１からint(input())で入力された数まで大きい順に出力してください。
+
+testcase:
+  tests:
+  - input:
+    - "3"
+    output: |
+      3
+      2
+      1
+code: |+
+  n = int(input())
+
+  while True:
+      print(n)
+      n -= 1
+      if n < 1:
+          break
+

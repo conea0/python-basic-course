@@ -1,0 +1,20 @@
+statement: |2+
+
+  `while True`使って、int(input())で入力された数の回数`1 2 3`を出力してください
+
+testcase:
+  tests:
+  - input:
+    - "3"
+    output: |
+      1 2 3
+      1 2 3
+      1 2 3
+code: |
+  num = 0
+  a = int(input())
+  while True:
+      num += 1
+      print("1 2 3")
+      if num == a:
+          break

@@ -1,0 +1,23 @@
+statement: |2+
+
+  `while True`を使って、int(input())で入力された数を何回かければ`500`を超えるのかを`⚪︎回かけると500を超えた`と⚪︎を埋めて出力してください。
+
+testcase:
+  tests:
+  - input:
+    - "2"
+    output: |
+      9回かけると500を超えた
+code: |
+  tn = int(input())
+  result = 1
+  count = 0
+
+  while True:
+      result *= tn
+      count += 1
+
+      if result > 500:
+          break
+
+  print(f"{count}回かけると500を超えた")

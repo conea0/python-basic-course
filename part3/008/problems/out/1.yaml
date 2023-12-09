@@ -1,0 +1,25 @@
+statement: |2+
+
+  `while True`を使って`1からint(input())で入力された数までを出力してください。
+
+testcase:
+  tests:
+  - input:
+    - "9"
+    output: |
+      1
+      2
+      3
+      4
+      5
+      6
+      7
+      8
+      9
+code: |
+  num = 1
+  while True:
+    print(num)
+    num += 1
+    if num == 10:
+      break

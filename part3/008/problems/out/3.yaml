@@ -1,0 +1,30 @@
+statement: |2
+
+  `while`を使って、list(map(str, input().split()))で入力されたリストのそれぞれ要素を`私の名前は〇〇です`の〇〇に当てはめて1回目はそのまま、２回目はその名前の後ろに１を追加して出力してください
+
+  ※入力が"taro goro"だとすると、"私の名前はgoroです","私の名前はtaroです","私の名前はgoro1です","私の名前はtaro1です"と出力するようにする。
+testcase:
+  tests:
+  - input:
+    - goro taro jiro nanashi
+    output: |
+      私の名前は goro  です
+      私の名前は taro  です
+      私の名前は jiro  です
+      私の名前は nanashi  です
+      私の名前は goro 1 です
+      私の名前は taro 1 です
+      私の名前は jiro 1 です
+      私の名前は nanashi 1 です
+code: |+
+  names = list(map(str, input().split()))
+  count = 0
+
+  while True:
+      for name in names:
+          print(f"私の名前は {name} {'1'*count} です")
+      count += 1
+
+      if count == 2:
+          break
+

@@ -1,0 +1,21 @@
+statement: |2+
+
+  `while True`を使ってlist(map(int, input().split()))で入力されたリストの中身をすべて出力してください
+
+testcase:
+  tests:
+  - input:
+    - 3 5 2 0
+    output: |
+      3
+      5
+      2
+      0
+code: |
+  l = list(map(int, input().split()))
+  i = 0
+  while True:
+      if len(l) == i:
+          break
+      print(l[i])
+      i += 1

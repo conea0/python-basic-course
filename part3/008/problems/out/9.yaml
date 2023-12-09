@@ -1,0 +1,19 @@
+statement: |2+
+
+  `while True`を使って、int(input())で入力された数を３で割ったときのその余りが`3`なら`余りは3`、それ以外であればnum_1を1足して`余りは3ではない`と出力してください。<br>
+  余りが３になるまで入力された数をインクリメント(+1)してください。
+
+testcase:
+  tests:
+  - input:
+    - "3"
+    output: |
+      余りは3
+code: |
+  num = int(input())
+  while True:
+      if num % 3 == 0:
+          print("余りは3")
+          break
+      print("余りは3ではない")
+      num += 1
