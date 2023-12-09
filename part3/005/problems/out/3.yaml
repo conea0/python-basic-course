@@ -1,0 +1,11 @@
+statement: |2+
+
+  二重ループを使って、5から9の掛け算九九の総和を出力してください。
+
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      1225
+code: "n=0\nfor x in range(5,10):\n    for y in range(5,10):\n        n+=x*y\n        \nprint(n)\n"

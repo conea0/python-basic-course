@@ -1,0 +1,15 @@
+statement: |2+
+
+  二重ループを使って、1から19の掛け算九九の総和を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      36100
+code: |
+  n=0
+  for x in range(1,20):
+      for y in range(1,20):
+          n+=x*y
+  print(n)

@@ -1,0 +1,11 @@
+statement: |2+
+
+  二重ループを使って、3から19の掛け算九九の総和を出力してください。
+
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      34969
+code: "n=0\nfor x in range(3,20):\n    for y in range(3,20):\n        n+=x*y\n        \nprint(n)\n"
