@@ -1,0 +1,11 @@
+statement: |2+
+
+  "2"を-演算子を使って出力してください
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      2
+code: |
+  print(7-5)

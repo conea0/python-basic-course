@@ -1,0 +1,11 @@
+statement: |2+
+
+  "64"を**演算子を使って出力してください
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      64
+code: |
+  print(8**2)

@@ -1,0 +1,14 @@
+statement: |2
+
+  下の空欄を[]の中の演算子を使い埋めて、"20"を出力してください
+
+  print(4□(2+3))
+
+  [+,/,*]
+testcase:
+  tests:
+  - input: []
+    output: |
+      20
+code: |
+  print(4*(2+3))

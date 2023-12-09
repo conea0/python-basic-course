@@ -1,0 +1,12 @@
+statement: |2
+
+  下の空欄を埋めて、"45"を出力してください
+
+  print(9□((4*4)□(7+(9□2))))
+testcase:
+  tests:
+  - input: []
+    output: |
+      45
+code: |
+  print(9*((4*4)-(7+(9//2))))

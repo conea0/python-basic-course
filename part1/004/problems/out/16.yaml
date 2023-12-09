@@ -1,0 +1,12 @@
+statement: |2
+
+  下の空欄を埋めて、"3.0"を出力してください
+
+  print((3□(4□3))/(7□(5□3)))
+testcase:
+  tests:
+  - input: []
+    output: |
+      3.0
+code: |
+  print((3+(4*3))/(7-(5%3)))

@@ -1,0 +1,12 @@
+statement: |2
+
+  下の空欄を埋めて、"10"を出力してください
+
+  print(7□3*5□5)
+testcase:
+  tests:
+  - input: []
+    output: |
+      10
+code: |
+  print(7%3*5+5)

@@ -1,0 +1,10 @@
+statement: |2
+
+  1,2,3を使って"7"を出力してください
+testcase:
+  tests:
+  - input: []
+    output: |
+      7
+code: |
+  print(1+2*3)

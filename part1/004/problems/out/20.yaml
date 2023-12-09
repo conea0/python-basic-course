@@ -1,0 +1,10 @@
+statement: |2
+
+  2,4,10を使って"400"を出力してください
+testcase:
+  tests:
+  - input: []
+    output: |
+      400
+code: |
+  print(4*10*10)

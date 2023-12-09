@@ -1,0 +1,12 @@
+statement: |2
+
+  下の空欄を埋めて、"6"を出力してください
+
+  print(10-(15□3-(4+2□(3□5))))
+testcase:
+  tests:
+  - input: []
+    output: |
+      6
+code: |
+  print(10-(15+3-(4+2+(3+5))))
