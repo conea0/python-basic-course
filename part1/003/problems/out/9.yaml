@@ -1,0 +1,11 @@
+statement: |2+
+
+  "school" を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      school
+code: |
+  print("school")

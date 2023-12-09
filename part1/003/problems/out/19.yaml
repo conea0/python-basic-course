@@ -1,0 +1,11 @@
+statement: |2+
+
+  "「この商品は20%引きです」" を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      「この商品は20%引きです」
+code: |
+  print("「この商品は20%引きです」")

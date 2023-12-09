@@ -1,0 +1,11 @@
+statement: |2+
+
+  "hello world" を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      hello world
+code: |
+  print("hello world")

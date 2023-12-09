@@ -1,0 +1,11 @@
+statement: |2+
+
+  "「やったね！」" を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      「やったね！」
+code: |
+  print("「やったね！」")

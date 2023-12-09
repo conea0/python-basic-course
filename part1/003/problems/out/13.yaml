@@ -1,0 +1,11 @@
+statement: |2+
+
+  "運動会" を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      運動会
+code: |
+  print("運動会")

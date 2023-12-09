@@ -1,0 +1,11 @@
+statement: |2+
+
+  "Programming" を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      Programming
+code: |
+  print("Programming")

@@ -1,0 +1,11 @@
+statement: |2+
+
+  142857 を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      142857
+code: |
+  print(142857)

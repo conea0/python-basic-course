@@ -1,0 +1,11 @@
+statement: |2+
+
+  1000 を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      1000
+code: |
+  print(1000)

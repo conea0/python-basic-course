@@ -1,0 +1,11 @@
+statement: |2+
+
+  "apple" を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      apple
+code: |
+  print("apple")

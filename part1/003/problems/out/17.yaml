@@ -1,0 +1,11 @@
+statement: |2+
+
+  "「ぼくは小学5年生です」" を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      「ぼくは小学5年生です」
+code: |
+  print("「ぼくは小学5年生です」")

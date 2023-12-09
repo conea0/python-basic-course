@@ -1,0 +1,11 @@
+statement: |2+
+
+  2023 を出力してください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      2023
+code: |
+  print(2023)
