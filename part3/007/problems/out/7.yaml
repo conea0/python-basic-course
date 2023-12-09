@@ -1,0 +1,18 @@
+statement: |2+
+
+  while文を使って1からint(input())までの整数をすべてかけた結果を表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - "5"
+    output: |
+      120
+code: |
+  a = 1
+  b = int(input())
+  s = 1
+  while a <= b:
+    s = a * s
+    a += 1
+  print(s)

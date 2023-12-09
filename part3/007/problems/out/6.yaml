@@ -1,0 +1,11 @@
+statement: |2+
+
+  while文を使って3からint(input())で入力された数までの数字の総和を表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - "8"
+    output: |
+      33
+code: "s = 0\na = 3\nb = int(input()) \nwhile a <= b:\n  s += a\n  a += 1\nprint(s)\n"

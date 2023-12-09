@@ -1,0 +1,23 @@
+statement: |2+
+
+  while文を使って0からint(input())で入力された数までの数字を表示させた後に「処理を終了します」と表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - "5"
+    output: |
+      0
+      1
+      2
+      3
+      4
+      5
+      処理を終了します
+code: |
+  a = 0
+  b = int(input())
+  while a <= b:
+    print(a)
+    a += 1
+  print("処理を終了します")

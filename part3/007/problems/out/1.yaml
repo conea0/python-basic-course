@@ -1,0 +1,20 @@
+statement: |2+
+
+  while文を使って1からint(input())で入力された数までの数字を表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - "5"
+    output: |
+      1
+      2
+      3
+      4
+      5
+code: |
+  a = 1
+  b = int(input())
+  while a <= b:
+    print(a)
+    a += 1

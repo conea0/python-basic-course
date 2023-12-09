@@ -1,0 +1,20 @@
+statement: |2+
+
+  while文を使って１からint(input())の入力までの数を大きいじゅんに表示させてください。
+
+testcase:
+  tests:
+  - input:
+    - "5"
+    output: |
+      5
+      4
+      3
+      2
+      1
+code: |
+  a = 1
+  b = int(input())
+  while b >= a:
+    print(b)
+    b -= 1

@@ -1,0 +1,20 @@
+statement: |2+
+
+  while文を使ってinput()で入力された文字列に1を文字の最後に追加して、3回表示させてください。
+
+  ※"こんにちは"が入力だとすると、"こんにちは１"を3回出力するようにする
+
+testcase:
+  tests:
+  - input:
+    - Hello
+    output: |
+      Hello1
+      Hello1
+      Hello1
+code: |
+  a = 0
+  b = input()
+  while a < 3:
+    print(b + "1")
+    a += 1

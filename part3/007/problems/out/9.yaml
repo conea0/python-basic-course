@@ -1,0 +1,23 @@
+statement: |2+
+
+  while文を使って1からint(input())で入力した数までの間で偶数の時のみ表示させてください。
+
+  ヒント:「if a % 2 == 0:」を使います。
+
+testcase:
+  tests:
+  - input:
+    - "10"
+    output: |
+      2
+      4
+      6
+      8
+      10
+code: |
+  a = 1
+  b =int(input())
+  while a <= b:
+    a += 1
+    if a % 2 == 0:
+      print(a)
