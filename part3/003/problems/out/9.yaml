@@ -1,0 +1,15 @@
+statement: |2
+
+  int(input())で入力した値に加えてその値が80以上であれば`優`、70以上であれば`良`、60以上であれば`可`、それ以外であれば`不可`と出力するようにしてください
+
+  例:72が入力された時は以下に表示する。<br>
+  "72 良"　
+testcase:
+  tests:
+  - input:
+    - "72"
+    output: |
+      72 良
+code: "score =int(input())\n\nif score >= 80:\n  char = \"優\"\nelif score >= 70:\n
+  \ char = \"良\"\nelif score >= 60:\n  char = \"可\"\nelse:\n  char = \"不可\"\n\nprint(score,char)
+  \   \n"

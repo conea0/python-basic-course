@@ -1,0 +1,21 @@
+statement: |2+
+
+  input()で入力した文字列が`イヌ`であれば`動物`、`マグロ`であれば`さかな`、`にわとり`であれば`とり`、それ以外であれば`判別できない`と出力してください
+
+testcase:
+  tests:
+  - input:
+    - ネコ
+    output: |
+      判別できない
+code: |
+  name = input()
+
+  if name == "イヌ":
+    print("動物")
+  elif name == "マグロ":
+    print("さかな")
+  elif name == "にわとり":
+    print("とり")
+  else :
+    print("判別できない")

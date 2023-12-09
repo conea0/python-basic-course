@@ -1,0 +1,52 @@
+statement: |2+
+
+  int(input())で入力した値が1~12を入力し、入力した数字の月を英語で、それ以外なら`月がありません`出力してください
+
+  ※1月：January
+  　2月：February
+  　3月：March
+  　4月：April
+  　5月：May
+  　6月：June
+  　7月：July
+  　8月：August
+  　9月：September
+  　10月：October
+  　11月：November
+  　12月：December
+
+testcase:
+  tests:
+  - input:
+    - "7"
+    output: |
+      July
+code: |
+  mon = int(input())
+
+  if mon == 1:
+    print("January")
+  elif mon == 2:
+    print("February")
+  elif mon == 3:
+    print("March")
+  elif mon == 4:
+    print("April")
+  elif mon == 5:
+    print("May")
+  elif mon == 6:
+    print("June")
+  elif mon == 7:
+    print("July")
+  elif mon == 8:
+    print("August")
+  elif mon == 9:
+    print("September")
+  elif mon == 10:
+    print("October")
+  elif mon == 11:
+    print("November")
+  elif mon == 12:
+    print("December")
+  else:
+      print("月はありません")

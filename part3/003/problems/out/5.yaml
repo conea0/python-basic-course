@@ -1,0 +1,19 @@
+statement: |2+
+
+  int(input())で入力した値に15足した数が100より上であれば`大きい`、50より下であれば`小さい`、それ以外であれば`普通`と出力してください
+
+testcase:
+  tests:
+  - input:
+    - "63"
+    output: |
+      普通
+code: |
+  num = int(input())
+
+  if num + 15 < 50:
+    print("小さい")
+  elif num + 15 > 100:
+    print("大きい")
+  else :
+    print("普通")

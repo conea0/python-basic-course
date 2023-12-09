@@ -1,0 +1,13 @@
+statement: |2+
+
+  int(input())で入力した値が3600以上であれば`一時間以上`、3600未満であれば`一時間以下、一分以上`、60未満であれば`一分以下、一秒以上`、1未満であれば`一秒以下`と出力するようにしてください
+
+testcase:
+  tests:
+  - input:
+    - "524"
+    output: |
+      一時間以下、一分以上
+code: "time = int(input())\n\nif time >= 3600:\n  print(\"一時間以上\")\nelif time >= 60:\n
+  \ print(\"一時間以下、一分以上\")\nelif time >= 1:\n  print(\"一分以下、一秒以上\")\nelse:\n    print(\"一秒以下\")
+  \ \n"
