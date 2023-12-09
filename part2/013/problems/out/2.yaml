@@ -1,0 +1,12 @@
+statement: |2+
+
+  整数 1~5 までの要素を並べてリストを作成し、表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      [1, 2, 3, 4, 5]
+code: |
+  a = [1,2,3,4,5]
+  print(a)

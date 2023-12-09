@@ -1,0 +1,12 @@
+statement: |2+
+
+  浅木 , 75 を要素に持つリストを作成して表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      ['浅木', 75]
+code: |
+  a = ["浅木",75]
+  print(a)

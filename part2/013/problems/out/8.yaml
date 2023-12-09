@@ -1,0 +1,12 @@
+statement: |2+
+
+  apple , banana , strawberry を要素に持つリストを作成して表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      ['apple', 'banana', 'strawberry']
+code: |
+  a = ["apple","banana","strawberry"]
+  print(a)

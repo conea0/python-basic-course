@@ -1,0 +1,12 @@
+statement: |2+
+
+  1,2,3 をstr型で並べたリストを作って表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      ['1', '2', '3']
+code: |
+  a = ["1","2","3"]
+  print(a)

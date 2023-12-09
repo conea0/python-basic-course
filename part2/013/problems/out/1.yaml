@@ -1,0 +1,12 @@
+statement: |2+
+
+  1,2,3 の数字を要素に持つリストを作成して表示させてください。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      [1, 2, 3]
+code: |
+  a =[1,2,3]
+  print(a)
