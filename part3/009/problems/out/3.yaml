@@ -1,0 +1,18 @@
+statement: |2+
+
+  初期値をi=0とし、while文を使ってiからint(input())の入力の数まで2を足して更新する処理を作ってください。なお、while文の中には、i=8ならprint(i)の処理をする条件式を入れてください。
+
+testcase:
+  tests:
+  - input:
+    - "10"
+    output: |
+      8
+code: |
+  i = 0
+  b = int(input())
+  while i <= b:
+      i += 2
+      if i != 8:
+          continue
+      print(i)
