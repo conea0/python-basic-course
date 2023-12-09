@@ -1,0 +1,25 @@
+statement: |2
+
+  `words`にキーには`Wd_1 = "土"``Wd_2 = "紙"``Wd_3 = "色"`、値には`word_1 = "つち"``word_2 = "かみ"``word_3 = "いろ"`を代入した後、`setdefault`を使って引数に`Wd_4 = "道路"``word_4 = "どうろ"`を追加して、wordsにある値を全てを出力してください
+
+  wordsを作成し、それを使って出力しよう。そのままprintは禁止です。
+testcase:
+  tests:
+  - input: []
+    output: |
+      dict_values(['つち', 'かみ', 'いろ', 'どうろ'])
+code: |
+  Wd_1 = "土"
+  Wd_2 = "紙"
+  Wd_3 = "色"
+  Wd_4 = "道路"
+
+  word_1 = "つち"
+  word_2 = "かみ"
+  word_3 = "いろ"
+  word_4 = "どうろ"
+
+  words = {Wd_1 : word_1,Wd_2 : word_2,Wd_3 : word_3}
+  words.setdefault(Wd_4 , word_4)
+
+  print(words.values())

@@ -1,0 +1,14 @@
+statement: |2+
+
+  `keys` を使用して`numbers_k = {1 : "No.1",3 : "No.2",2 : "No.3"}`のキーを全て出力してください
+
+  numbers_kを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      dict_keys([1, 3, 2])
+code: |
+  numbers_k = {1 : "No.1",3 : "No.2",2 : "No.3"}
+  print(numbers_k.keys())

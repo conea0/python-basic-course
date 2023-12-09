@@ -1,0 +1,16 @@
+statement: |2+
+
+  `clear` を使用して`numbers = [6 : 36,2 : 4,15 : 225]`の中身を全て削除してた後に、numbersを出力してください。
+
+  numbersを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      None
+code: |
+  numbers = {6 : 36,2 : 4,15 : 225}
+  cleared_numbers = numbers.clear()
+
+  print(cleared_numbers)

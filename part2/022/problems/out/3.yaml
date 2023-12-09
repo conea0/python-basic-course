@@ -1,0 +1,15 @@
+statement: |2+
+
+  `setdefault` を使用して`numbers_sd = {3 : "number_1",1 : "number_2",2 : "number_3"}`の中に`4`のキーだけ追加して、追加した辞書全体を出力しよう。
+
+  numbers_sdを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      {2: 'nomber_1', 3: 'nomber_2', 1: 'nomber_3', 4: None}
+code: |
+  numbers_sd = {2 : "nomber_1",3 : "nomber_2",1 : "nomber_3"}
+  numbers_sd.setdefault(4)
+  print(numbers_sd)

@@ -1,0 +1,13 @@
+statement: |2
+
+  `get` を使用して`words_g = {"word_1" : "りんご","word_2" : "すいか","word_3" : "みかん"}`から`すいか`を出力してください
+
+  words_gを作成し、それを使って出力しよう。そのままprintは禁止です。
+testcase:
+  tests:
+  - input: []
+    output: |
+      すいか
+code: |
+  words_g = {"word_1" : "りんご","word_2" : "すいか","word_3" : "みかん"}
+  print(words_g.get("word_2"))

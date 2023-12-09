@@ -1,0 +1,14 @@
+statement: |2+
+
+  `values` を使用して`words_k = {"b" : "あいう","c" : "かきく","a" : "さしす"}`のキーを出力してください
+
+  word_kを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      dict_values(['あいう', 'かきく', 'さしす'])
+code: |
+  words_k = {"b" : "あいう","c" : "かきく","a" : "さしす"}
+  print(words_k.values())

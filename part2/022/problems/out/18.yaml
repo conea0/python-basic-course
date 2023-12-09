@@ -1,0 +1,25 @@
+statement: |2
+
+  `numbers`にキーには`No_1 = 2``No_2 = 7``No_3 = 5`、値には`number_1 = 64``number_2 = 512``number_3 = 16`を代入した後、`setdefault`を使って引数に`No_4 = 6``number_4 = 128`を追加して`words`のキーを出力してください
+
+  numbersを作成し、それを使って出力しよう。そのままprintは禁止です。
+testcase:
+  tests:
+  - input: []
+    output: |
+      dict_keys([2, 7, 5, 6])
+code: |
+  No_1 = 2
+  No_2 = 7
+  No_3 = 5
+  No_4 = 6
+
+  number_1 = 64
+  number_2 = 512
+  number_3 = 16
+  number_4 = 128
+
+  numbers = {No_1 : number_1,No_2 : number_2,No_3 : number_3}
+  numbers.setdefault(No_4 , number_4)
+
+  print(numbers.keys())

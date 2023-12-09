@@ -1,0 +1,16 @@
+statement: |2+
+
+  `setdefault` を使用して`words_sd = {"word_1" : "キャベツ","word_2" : "にんじん","word_3" : "たまねぎ"}`の中に、キーには`word_4`、値には`もやし`を追加して、`words_sd`の中身がどうなっているか出力してください
+
+  words_sdを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      {'word_1': 'キャベツ', 'word_2': 'にんじん', 'word_3': 'たまねぎ', 'word_4': 'もやし'}
+code: |
+  words_sd = {"word_1" : "キャベツ","word_2" : "にんじん","word_3" : "たまねぎ"}
+  words_sd.setdefault("word_4","もやし")
+
+  print(words_sd)

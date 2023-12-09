@@ -1,0 +1,15 @@
+statement: |2+
+
+  `setdefault` を使用して`numbers_sd = {3 : "number_1",4 : "number_2",1 : "number_3"}`の中に`2`のキーだけ追加した後、`get`を使用して`2`の値を出力してください
+
+  word_sdを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      number_1
+code: |
+  numbers_sd = {2 : "number_1",3 : "number_2",1 : "number_3"}
+  numbers_sd.setdefault(2)
+  print(numbers_sd.get(2))

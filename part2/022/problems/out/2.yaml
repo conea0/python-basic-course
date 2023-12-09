@@ -1,0 +1,14 @@
+statement: |2+
+
+  `get` を使用して`numbers_g = {2 : "uomber_1",3 : "number_2",1 : "number_3"}`から`"number_3"`を出力してください
+
+  numbers_gを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      number_3
+code: |
+  nombers_g = {2 : "number_1",3 : "number_2",1 : "number_3"}
+  print(nombers_g.get(1))

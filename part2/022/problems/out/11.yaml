@@ -1,0 +1,14 @@
+statement: |2+
+
+  `items` を使用して`words_k = {"い" : "No.3","あ" : "No.1","う" : "No.2"}`のwords_kの中身を全て出力してください
+
+  word_kを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      dict_items([('い', 'No.3'), ('あ', 'No.1'), ('う', 'No.2')])
+code: |
+  words_k = {"い" : "No.3","あ" : "No.1","う" : "No.2"}
+  print(words_k.items())

@@ -1,0 +1,15 @@
+statement: |2+
+
+  `setdefault` を使用して`numbers_sd = {7 : "奇数",4 : "偶数",10 : "偶数"}`の中に、キーには`5`、値には`奇数`を追加してから、`keys`を使用して全てのキーを出力してください
+
+  numbers_sdを作成し、それを使って出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      dict_keys([7, 4, 10, 5])
+code: |
+  numbers_sd = {7 : "奇数",4 : "偶数",10 : "偶数"}
+  numbers_sd.setdefault(5,"奇数")
+  print(numbers_sd.keys())
