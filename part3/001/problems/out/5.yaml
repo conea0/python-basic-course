@@ -1,0 +1,14 @@
+statement: |2
+
+  nが8以上のとき"nは8以上である"と出力されるようなif文を作って、出力してください。
+
+  ```n=int(input())```として入力しなさい。(nは8以上としよう)
+testcase:
+  tests:
+  - input:
+    - "10"
+    output: ""
+code: |
+  n=int(input())
+  if n <= 8:
+      print("nは8以上である")

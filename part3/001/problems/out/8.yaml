@@ -1,0 +1,17 @@
+statement: |2
+
+  x+y==5のとき"xとyの和は5である"と出力されるようなif文を作って、出力してください。
+
+  ```x=int(input())```,```y=int(input())```として入力しなさい。（xは2、yは3としよう)
+testcase:
+  tests:
+  - input:
+    - "2"
+    - "3"
+    output: |
+      xとyの和は5である
+code: |
+  x = int(input())
+  y = int(input())
+  if x + y == 5:
+      print("xとyの和は5である")

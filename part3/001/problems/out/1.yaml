@@ -1,0 +1,16 @@
+statement: |2+
+
+  n<6のとき"nは6より小さい"と出力されるようなif文を作って、出力してください。
+
+  ```n=int(input())```として入力しなさい。(nは6より小さい数にしよう)
+
+testcase:
+  tests:
+  - input:
+    - "1"
+    output: |
+      nは6より小さい
+code: |
+  n=int(input())
+  if n < 6:
+      print("nは6より小さい")

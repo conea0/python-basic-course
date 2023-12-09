@@ -1,0 +1,17 @@
+statement: |2
+
+  x+y==50のときは"xとyの和は50である"と出力されるようなif文を作って、出力してください。
+
+  ```x=int(input())```,```y=int(input())```として入力しなさい。（xは25、yは25としよう)
+testcase:
+  tests:
+  - input:
+    - "25"
+    - "25"
+    output: |
+      xとyの和は50である
+code: |
+  x=int(input())
+  y=int(input())
+  if x+y==50:
+      print("xとyの和は50である")

@@ -1,0 +1,15 @@
+statement: |2
+
+  s='hello'のとき"hello world!"と出力されるようなif文を作って、出力してください。
+
+  ```s=input()```として入力しなさい。(sは'hello'としよう)
+testcase:
+  tests:
+  - input:
+    - hello
+    output: |
+      hello world!
+code: |
+  s= input()
+  if s == 'hello':
+      print("hello world!")

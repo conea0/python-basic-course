@@ -1,0 +1,17 @@
+statement: |2
+
+  xとyの値が等しくないとき"xとyは等しくない"と出力されるようなif文を作って、出力してください。
+
+  ```x=int(input())```,```y=int(input())```として入力しなさい。（xは10、yは20としよう)
+testcase:
+  tests:
+  - input:
+    - "10"
+    - "20"
+    output: |
+      xとyは等しくない
+code: |
+  x = int(input())
+  y = int(input())
+  if x != y:
+      print("xとyは等しくない")
