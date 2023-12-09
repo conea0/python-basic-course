@@ -1,0 +1,15 @@
+statement: |2
+
+  リスト s=["1", "2", "3", "4", "5", "6"] の0番目から5番目の要素を3個刻みに取り出して出力してください。
+
+  list(map(str, input().split()))を使ってリストを入力しよう。
+  入力の時は、1つの要素おきにスペースを入れよう。
+testcase:
+  tests:
+  - input:
+    - 1　2　3　4　5　6
+    output: |
+      ['1', '4']
+code: |
+  s = list(map(str, input().split()))
+  print(s[0:6:3])

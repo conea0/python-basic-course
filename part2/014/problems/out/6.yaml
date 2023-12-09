@@ -1,0 +1,16 @@
+statement: |2
+
+  リスト s=["い", "ろ", "は", "に", "ほ"] の2番目の要素を"ちりぬるを"に変えて出力してください。
+
+  list(map(str, input().split()))を使ってリストを入力しよう。
+  入力の時は、1つの要素おきにスペースを入れよう。
+testcase:
+  tests:
+  - input:
+    - い　ろ　は　に　ほ
+    output: |
+      ['い', 'ろ', 'ちりぬるを', 'に', 'ほ']
+code: |
+  s = list(map(str, input().split()))
+  s[2] = "ちりぬるを"
+  print(s)

@@ -1,0 +1,16 @@
+statement: |2
+
+  リスト s=["Hello", "world", ".", "I", "am", "fine", "!"] の5番目の要素をhappyに変えて出力してください。
+
+  list(map(str, input().split()))を使ってリストを入力しよう。
+  入力の時は、1つの要素おきにスペースを入れよう。
+testcase:
+  tests:
+  - input:
+    - Hello　world　.　I　am　fine　!
+    output: |
+      ['Hello', 'happy', '.', 'I', 'am', 'fine', '!']
+code: |
+  s = list(map(str, input().split()))
+  s[1] = "happy"
+  print(s)

@@ -1,0 +1,16 @@
+statement: |2
+
+  リスト s=["Japaneze", "Math", "Science", "English"] の0番目の要素をMusicに変えて出力してください。
+
+  list(map(str, input().split()))を使ってリストを入力しよう。
+  入力の時は、1つの要素おきにスペースを入れよう。
+testcase:
+  tests:
+  - input:
+    - Japaneze　Math　Science　English
+    output: |
+      ['Music', 'Math', 'Science', 'English']
+code: |
+  s = list(map(str, input().split()))
+  s[0] = "Music"
+  print(s)

@@ -1,0 +1,15 @@
+statement: |2
+
+  リスト s=["a", "b", "c", "d", "e"] の2番目から3番目の要素を取り出して出力してください。
+
+  list(map(str, input().split()))を使ってリストを入力しよう。
+  入力の時は、1つの要素おきにスペースを入れよう。
+testcase:
+  tests:
+  - input:
+    - a　b　c　d　e
+    output: |
+      ['c', 'd']
+code: |
+  s = list(map(str, input().split()))
+  print(s[2:4])
