@@ -1,0 +1,14 @@
+statement: |2
+
+  "programming school" のoを?にして出力してください。
+
+  "programming school"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - ooo
+    output: |
+      ???
+code: |
+  s = input()
+  print(s.replace("o", "?"))

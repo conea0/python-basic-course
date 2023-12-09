@@ -1,0 +1,14 @@
+statement: |2
+
+  "one-two-three-" の-をなくしてください（実行結果が　onetwothree　になるように出力してください）。
+
+  "one-two-three-"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - -2-1-
+    output: |
+      21
+code: |
+  s = input()
+  print(s.replace("-", ""))

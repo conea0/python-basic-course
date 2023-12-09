@@ -1,0 +1,14 @@
+statement: |2
+
+  "one-two-three-four-five-" の-を2個だけ!にして出力してください。
+
+  "one-two-three-four-five-"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - '---'
+    output: |
+      !!-
+code: |
+  s = input()
+  print(s.replace("-", "!", 2))

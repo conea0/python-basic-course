@@ -1,0 +1,14 @@
+statement: |2
+
+  "one-two-three-four-five-" の-を!に、oを1個だけ123にして出力してください。
+
+  "one-two-three-four-five-"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - -oo
+    output: |
+      !123o
+code: |
+  s = input()
+  print(s.replace("-", "!").replace("o", "123", 1))

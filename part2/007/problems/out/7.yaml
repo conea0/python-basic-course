@@ -1,0 +1,14 @@
+statement: |2
+
+  "888888" の8を4個だけ9にして出力してください。
+
+  "888888"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - "878787878"
+    output: |
+      979797978
+code: |
+  s = input()
+  print(s.replace("8", "9", 4))

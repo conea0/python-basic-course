@@ -1,0 +1,14 @@
+statement: |2
+
+  "hello world" のoを456にして出力してください。
+
+  "hello world"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - ooo
+    output: |
+      456456456
+code: |
+  s = input()
+  print(s.replace("o", "456"))

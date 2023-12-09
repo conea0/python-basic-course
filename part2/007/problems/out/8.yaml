@@ -1,0 +1,14 @@
+statement: |2
+
+  "one-two-three-" のoを123に、eを456にして出力してください。
+
+  "one-two-three-"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - lo
+    output: |
+      l123
+code: |
+  s = input()
+  print(s.replace("o", "123").replace("e", "456"))

@@ -1,0 +1,14 @@
+statement: |2
+
+  "55555" の5を6にして出力してください。
+
+  "55555"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - "757"
+    output: |
+      767
+code: |
+  s = input()
+  print(s.replace("5", "6"))
