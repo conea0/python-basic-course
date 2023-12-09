@@ -1,0 +1,15 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストに、リスト['apple', 'orange', 'grape', 'peach']を追加して出力してください。
+
+testcase:
+  tests:
+  - input:
+    - banana　lemon
+    output: |
+      ['banana', 'lemon', 'apple', 'orange', 'grape', 'peach']
+code: |
+  l = list(map(str, input().split()))
+  l2 = ['apple', 'orange', 'grape', 'peach']
+  l.extend(l2)
+  print(l)

@@ -1,0 +1,15 @@
+statement: |2
+
+  list(map(str, input().split()))で入力したリストの'金星'を削除して出力してください。
+
+  リストの入力は、「火星　水星　木星　金星　地球」としてください。
+testcase:
+  tests:
+  - input:
+    - 火星　水星　木星　金星　地球
+    output: |
+      ['火星', '水星', '木星', '地球']
+code: |
+  l = list(map(str, input().split()))
+  l.remove('金星')
+  print(l)

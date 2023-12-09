@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(int, input().split()))で入力したリストの４番目に100を追加して出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 97 98 99 101
+    output: |
+      [97, 98, 99, '100', 101]
+code: |
+  l = list(map(int, input().split()))
+  l.insert(3, '100')
+  print(l)

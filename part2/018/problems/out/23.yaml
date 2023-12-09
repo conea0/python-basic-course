@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストの、三つ目の要素を削除し、取り出して、出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 鉛筆　時計　定規　消しゴム
+    output: |
+      定規
+code: |
+  l = list(map(str, input().split()))
+  item = l.pop(2)
+  print(item)

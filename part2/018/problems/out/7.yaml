@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストにhelloを追加して出力してください。
+
+testcase:
+  tests:
+  - input:
+    - name date play
+    output: |
+      ['name', 'date', 'play', 'hello']
+code: |
+  l = list(map(str, input().split()))
+  l.append('hello')
+  print(l)

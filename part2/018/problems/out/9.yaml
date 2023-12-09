@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストの３つ目にflowerを追加して出力してください。
+
+testcase:
+  tests:
+  - input:
+    - tulip　jamine　mary
+    output: |
+      ['tulip', 'jamine', 'flower', 'mary']
+code: |
+  l = list(map(str, input().split()))
+  l.insert(2, 'flower')
+  print(l)

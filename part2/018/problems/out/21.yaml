@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストの二つ目の要素に'108本のバラ'を追加して出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 指輪　式場　手紙
+    output: |
+      ['指輪', '108本のバラ', '式場', '手紙']
+code: |
+  l = list(map(str, input().split()))
+  l.insert(1, '108本のバラ')
+  print(l)

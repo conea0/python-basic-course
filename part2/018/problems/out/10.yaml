@@ -1,0 +1,15 @@
+statement: |2
+
+  list(map(str, input().split()))で入力したリストのWedを削除して出力してください。
+
+  入力は「Sun Mon Tue Wed Thu」としてください。
+testcase:
+  tests:
+  - input:
+    - Sun Mon Tue Wed Thu
+    output: |
+      ['Sun', 'Mon', 'Tue', 'Thu']
+code: |
+  l = list(map(str, input().split()))
+  l.remove('Wed')
+  print(l)

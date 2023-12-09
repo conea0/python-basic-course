@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストに'100冊'を追加して出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 1冊　2冊　3冊　4冊　5冊
+    output: |
+      ['1冊', '2冊', '3冊', '4冊', '5冊', '100冊']
+code: |
+  l = list(map(str, input().split()))
+  l.append('100冊')
+  print(l)

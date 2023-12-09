@@ -1,0 +1,15 @@
+statement: |2+
+
+  list(map(int, input().split()))で入力したリストにリスト['97', '98', '99']を追加して出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 1 2 3
+    output: |
+      [1, 2, 3, '97', '98', '99']
+code: |
+  l = list(map(int, input().split()))
+  l2 = ['97', '98', '99']
+  l.extend(l2)
+  print(l)

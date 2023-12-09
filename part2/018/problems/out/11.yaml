@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストの２つ目の要素を削除し、取り出して、出力してください。
+
+testcase:
+  tests:
+  - input:
+    - cat dog horse koala zoo
+    output: |
+      dog
+code: |
+  l = list(map(str, input().split()))
+  item = l.pop(1)
+  print(item)

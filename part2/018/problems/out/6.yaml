@@ -1,0 +1,19 @@
+statement: |2+
+
+  copyメソッドを使って、list(map(int, input().split()))で入力したリストをコピーし、コピーしたものに10を追加してください。
+
+  コピーする前とコピーし追加した後を出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 1 2 3
+    output: |
+      [1, 2, 3]
+      [1, 2, 3, 10]
+code: |
+  l = list(map(int, input().split()))
+  l2 = l.copy()
+  l2.append(10)
+  print(l)
+  print(l2)

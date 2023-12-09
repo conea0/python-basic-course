@@ -1,0 +1,15 @@
+statement: |2
+
+  list(map(str, input().split()))で入力したリストの2022を削除して出力してください。
+
+  リストの入力は、「2020　オリンピック　2021　2022　コロナ」としてください。
+testcase:
+  tests:
+  - input:
+    - 2020　オリンピック　2021　2022　コロナ
+    output: |
+      ['2020', 'オリンピック', '2021', 'コロナ']
+code: |
+  l = list(map(str, input().split()))
+  l.remove('2022')
+  print(l)

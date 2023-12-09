@@ -1,0 +1,19 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストをコピーして出力し、赤をリストの最初に追加してください。
+
+  コピーする前とコピーして追加した後のリストを出力してください。
+
+testcase:
+  tests:
+  - input:
+    - 緑　黄色　桃　紫　橙
+    output: |
+      ['緑', '黄色', '桃', '紫', '橙']
+      ['赤', '緑', '黄色', '桃', '紫', '橙']
+code: |
+  l = list(map(str, input().split()))
+  l2 = l.copy()
+  l2.insert(0,'赤')
+  print(l)
+  print(l2)

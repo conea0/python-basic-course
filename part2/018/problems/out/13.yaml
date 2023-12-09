@@ -1,0 +1,14 @@
+statement: |2+
+
+  list(map(str, input().split()))で入力したリストに'おはよう'を追加して出力してください。
+
+testcase:
+  tests:
+  - input:
+    - こんにちは　おやすみ　よろしく　遊ぼう
+    output: |
+      ['こんにちは', 'おやすみ', 'よろしく', '遊ぼう', 'おはよう']
+code: |
+  l = list(map(str, input().split()))
+  l.append('おはよう')
+  print(l)

@@ -1,0 +1,15 @@
+statement: |2
+
+  list(map(int, input().split()))で入力したリストに100を追加して出力してください。
+
+  入力の時は、要素ごとにスペースで区切って打とう。
+testcase:
+  tests:
+  - input:
+    - 1 2 3 4
+    output: |
+      [1, 2, 3, 4, '100']
+code: |
+  l = list(map(int, input().split()))
+  l.append('100')
+  print(l)
