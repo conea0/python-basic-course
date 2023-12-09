@@ -1,0 +1,15 @@
+statement: |2
+
+  「一関市は岩手県にある市です」に「県」が何番目にあるか出力してください
+
+  "一関市は岩手県にある市です"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - 一関市は岩手県にある市です
+    output: |
+      3
+code: |
+  s = input()
+  S = "県"
+  print(s.index("は"))

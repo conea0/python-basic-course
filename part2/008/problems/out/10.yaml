@@ -1,0 +1,14 @@
+statement: |2+
+
+  「一関市は岩手県にある市です」に「です」がいくつあるか出力してください。
+
+testcase:
+  tests:
+  - input:
+    - ですですです
+    output: |
+      3
+code: |
+  s = input()
+  S = "です"
+  print(s.count(S))
