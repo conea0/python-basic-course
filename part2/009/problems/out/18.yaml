@@ -1,0 +1,14 @@
+statement: |2
+
+  "YOUTuber" のすべての文字を大文字にして出力してください。
+
+  "YOUTuber"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - YOUr
+    output: |
+      YOUR
+code: |
+  str = input()
+  print(str.upper())

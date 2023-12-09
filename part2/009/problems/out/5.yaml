@@ -1,0 +1,14 @@
+statement: |2
+
+  "painting" の先頭文字を大文字にして出力してください。
+
+  "ProGraMming"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - pa
+    output: |
+      Pa
+code: |
+  str = input()
+  print(str.capitalize())

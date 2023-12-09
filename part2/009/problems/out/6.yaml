@@ -1,0 +1,15 @@
+statement: |2+
+
+  "writing" のすべての文字を大文字にして出力してください。
+
+  "writing"はinput()で入力してください。
+
+testcase:
+  tests:
+  - input:
+    - w
+    output: |
+      W
+code: |
+  str = input()
+  print(str.upper())

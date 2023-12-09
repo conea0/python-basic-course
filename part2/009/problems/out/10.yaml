@@ -1,0 +1,14 @@
+statement: |2
+
+  "soCCeR" をすべて小文字にして出力してください。
+
+  "soCCeR"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - SS
+    output: |
+      ss
+code: |
+  str = input()
+  print(str.lower())

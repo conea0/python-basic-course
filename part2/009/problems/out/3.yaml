@@ -1,0 +1,14 @@
+statement: |2
+
+  "hello world" のすべての文字を大文字にして出力してください。
+
+  "HELLO WORLD"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - h
+    output: |
+      H
+code: |
+  str = input()
+  print(str.upper())

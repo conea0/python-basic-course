@@ -1,0 +1,14 @@
+statement: |2
+
+  "green" のすべての文字を大文字にして出力してください。
+
+  "green"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - g
+    output: |
+      G
+code: |
+  str = input()
+  print(str.upper())

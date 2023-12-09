@@ -1,0 +1,14 @@
+statement: |2
+
+  "tennis club" の先頭文字を大文字にして出力してください。
+
+  "tennis club"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - ten
+    output: |
+      Ten
+code: |
+  str = input()
+  print(str.capitalize())

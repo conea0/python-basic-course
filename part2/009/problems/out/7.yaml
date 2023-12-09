@@ -1,0 +1,15 @@
+statement: |2+
+
+  "FRIEND" をすべて小文字にして出力してください。
+
+  "FRIEND"はinput()で入力してください。
+
+testcase:
+  tests:
+  - input:
+    - F
+    output: |
+      f
+code: |
+  str = input()
+  print(str.lower())

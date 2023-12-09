@@ -1,0 +1,14 @@
+statement: |2
+
+  "apPLE LAb" をすべて小文字にして出力してください。
+
+  "apPLE LAb"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - rinGO
+    output: |
+      ringo
+code: |
+  str = input()
+  print(str.lower())

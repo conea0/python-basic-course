@@ -1,0 +1,14 @@
+statement: |2
+
+  "table TENNIS" のすべての文字を大文字にして出力してください。
+
+  "table TENNIS"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - desk
+    output: |
+      DESK
+code: |
+  str = input()
+  print(str.upper())

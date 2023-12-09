@@ -1,0 +1,14 @@
+statement: |2
+
+  "baSKetbaLL PlayEr" をすべて小文字にして出力してください。
+
+  "baSKetbaLL PlayEr"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - BaS
+    output: |
+      bas
+code: |
+  str = input()
+  print(str.lower())

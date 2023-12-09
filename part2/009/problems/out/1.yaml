@@ -1,0 +1,15 @@
+statement: |2+
+
+  "HELLO WORLD" をすべて小文字にして出力してください。
+
+  "HELLO WORLD"はinput()で入力してください。
+
+testcase:
+  tests:
+  - input:
+    - A
+    output: |
+      a
+code: |
+  str = input()
+  print(str.lower())

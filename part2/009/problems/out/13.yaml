@@ -1,0 +1,14 @@
+statement: |2
+
+  "BASEbAll Club" をすべて小文字にして出力してください。
+
+  "BASEBALL Club"はinput()で入力してください。
+testcase:
+  tests:
+  - input:
+    - BASE
+    output: |
+      base
+code: |
+  str = input()
+  print(str.lower())
