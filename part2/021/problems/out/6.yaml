@@ -1,0 +1,15 @@
+statement: |2+
+
+  a = {'apple':'りんご','banana':'バナナ','orange':'みかん'}という辞書を使って、「apple-りんご」の要素を削除した辞書を表示させてください。
+
+  aを作成し、そのあとに削除してみよう。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      {'banana': 'バナナ', 'orange': 'みかん'}
+code: |
+  a = {'apple':'りんご','banana':'バナナ','orange':'みかん'}
+  del a['apple']
+  print(a)

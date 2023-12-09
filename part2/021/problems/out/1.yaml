@@ -1,0 +1,10 @@
+statement: "\n{英単語:日本語訳}という形で、次にあげる英単語と日本語訳をそれぞれ対応させた辞書を作成して表示させてください。\n\n`apple-りんご　banana-バナナ　orange-みかん`
+  \n\n変数に代入してそれを出力しよう。\n\n"
+testcase:
+  tests:
+  - input: []
+    output: |
+      {'apple': 'りんご', 'banana': 'バナナ', 'orange': 'みかん'}
+code: |
+  a = {'apple':'りんご','banana':'バナナ','orange':'みかん'}
+  print(a)

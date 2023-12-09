@@ -1,0 +1,15 @@
+statement: |2+
+
+  a = {'apple':'りんご','banana':'バナナ','orange':'みかん'}という辞書に、「grape-ぶどう」を追加して表示させてください。
+
+  変数に代入してそれを出力しよう。そのままprintは禁止です。
+
+testcase:
+  tests:
+  - input: []
+    output: |
+      {'apple': 'りんご', 'banana': 'バナナ', 'orange': 'みかん', 'grape': 'ぶどう'}
+code: |
+  a = {'apple':'りんご','banana':'バナナ','orange':'みかん'}
+  a['grape']='ぶどう'
+  print(a)
